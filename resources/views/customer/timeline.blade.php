@@ -281,9 +281,9 @@ $countOrders = Order::where('customer_id', '=', Auth()->user()->id)->count();
                                 <div class="card-header title">Driver Info</div><hr>
                                 <div class="row">
                                     <ul class="pl-4 fa-ul text-muted">
-                                      <li><span class="fa-li "><i class="fas fa-id-card"></i></span> ID: {{ $id }}</li>
+                                      <li><span class="fa-li "><i class="fas fa-id-card"></i></span> ID: {{ $matric }}</li>
                                       <li><span class="fa-li"><i class="fas fa-phone"></i></span> Phone: {{ $phone }}</li>
-                                      <li><span class="fa-li"><i class="fas fa-school"></i></span> City: {{ $city }}</li>
+                                      <li><span class="fa-li"><i class="fas fa-school"></i></span> City: {{ $faculty }}</li>
                                     </ul>
                                 </div>
                                 {{-- End Card Driver info --}}

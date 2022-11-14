@@ -344,7 +344,7 @@ use App\Customer;
 </section>
 
 @else
-<br><br><br><h1>GET OUT OF THIS PAGE! Haha.</h1>
+<br><br><br><h1>No rides Yet</h1>
 @endif
 
 @endsection

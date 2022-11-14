@@ -100,8 +100,8 @@ Edit-Profile | MOVUS
                     <label>Car Type</label>
                     <select name="car_type" class="form-control">
                       <option value=""> Type of Car</option>
-                      <option value="four">4-seater</option>
-                      <option value="six">6-seater</option>
+                      <option value="four">Pickup</option>
+                      <option value="six">Truck</option>
                     </select>                  
                   </div>
                 </div>
@@ -140,7 +140,7 @@ Edit-Profile | MOVUS
                   <label>Update Profile Image</label>
                   <input type="file" name="avatar">
                   <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                  <input type="submit" class="pull-right btn btn-sm btn-primary">
+                  <button type="submit" class="pull-right btn btn-sm btn-primary">Submit</button>
               </form>
   
           </div>

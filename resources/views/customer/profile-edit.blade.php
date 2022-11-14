@@ -107,7 +107,7 @@ Edit-Profile | MOVUS
                   <label>Update Profile Image</label>
                   <input type="file" name="avatar">
                   <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                  <input type="submit" class="pull-right btn btn-sm btn-primary">
+                  <button type="submit" class="pull-right btn btn-sm btn-primary">Submit</button>
               </form>
   
           </div>

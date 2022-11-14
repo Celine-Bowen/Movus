@@ -119,8 +119,9 @@ Booking | MOVUS
                               <input type="time" class="form-control" name="time" required>
                             </div>
                           </div>
-
+                        
                           <div class="col-sm-4">
+                        
                             <!-- Cash -->
                               <div class="form-group">
                                   <label for="exampleFormControlSelect1">Payment Option</label>
